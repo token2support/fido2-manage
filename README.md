@@ -54,6 +54,10 @@ The GUI wrapper (`gui.py`) created with Python3 is included in the package and s
 
 `sudo apt install -y python3-tk`
 
+The installation steps below are also applicable to Debian releases. In addition to the tkinter module, you will need to install the pexpect module as well:
+
+`sudo apt install -y python3-pexpect`
+
 To run the script, execute it using Python from the same folder:
 
 `python3 gui.py`
